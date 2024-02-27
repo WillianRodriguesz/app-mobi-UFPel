@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { MapContainer, TileLayer, Marker, Popup} from 'react-leaflet';
-import './styles.css';
+import './mapa.css';
 
 class Map extends Component {
   state = {
@@ -12,7 +12,7 @@ class Map extends Component {
 
   render() {
     return (
-      <div>
+      <div className='Mapa'>
         <MapContainer center={[-31.745225381712174, -52.30837163354698]} zoom={15}>
           <TileLayer
             attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

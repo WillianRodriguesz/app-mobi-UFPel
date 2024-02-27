@@ -1,0 +1,15 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.leaflet-container {
+  height: 76vh;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.leaflet-div-icon {
+  background: transparent;
+  border: none;
+}
