@@ -3,6 +3,7 @@ import './menu.css'
 import { useState } from 'react';
 import { IoHomeOutline, IoLocationOutline, } from "react-icons/io5";
 import { TbRoute } from "react-icons/tb";
+import Link from 'next/link';
 
 export default function Menu() {
   const [showRoutesMenu, setShowRoutesMenu] = useState(false);
@@ -15,11 +16,11 @@ export default function Menu() {
     <ul className='Menu'>
       <li className='MenuItem'>
         <IoHomeOutline />
-        <p>INÍCIO</p>
+        <Link href="/inicio"><p>INICIO</p></Link>
       </li>
       <li className='MenuItem'>
         <IoLocationOutline />
-        <p>LOCALIZAÇÃO</p>
+        <Link href="/"><p>LOCALIZACÃO</p></Link>
       </li>
       <li className='MenuItem' onClick={handleRoutesClick}>
         <TbRoute />

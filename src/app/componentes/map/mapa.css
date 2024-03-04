@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.leaflet-container {
+  height: 76vh;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.leaflet-div-icon {
+  background: transparent;
+  border: none;
+}
+
+.custom-icon {
+  position: absolute;
+  bottom: -30px; /* Ajuste conforme necessário para o posicionamento do ícone */
+  left: -30px; /* Ajuste conforme necessário para o posicionamento do ícone */
+  z-index: 1000; /* Certifique-se de que o ícone esteja acima dos outros elementos */
+}

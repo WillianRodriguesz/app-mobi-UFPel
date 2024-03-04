@@ -1,0 +1,51 @@
+/* styles.css */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-color: rgb(237, 237, 251); /* Cor azul fraco */
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card-horarios {
+    display: flex;
+    align-items: center;
+    color: #555;
+    font-size: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .horario-item {
+    display: inline-block; /* Exibir horários em linha */
+    margin-right: 5px; /* Adicionar espaçamento entre os horários */
+  }
+  
+
+.clock-icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #555;
+}
+
+  
