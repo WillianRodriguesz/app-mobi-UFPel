@@ -20,3 +20,24 @@
   left: -30px; /* Ajuste conforme necessário para o posicionamento do ícone */
   z-index: 1000; /* Certifique-se de que o ícone esteja acima dos outros elementos */
 }
+.RoutesMenu {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  border: 0px solid #ccc;
+  border-radius: 25px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.RoutesMenu p {
+  margin: 0;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.RoutesMenu p:hover {
+  background-color: #f0f0f0;
+}

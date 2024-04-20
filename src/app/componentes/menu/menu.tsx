@@ -27,7 +27,7 @@ export default function Menu() {
         <p>ROTAS</p>
         {showRoutesMenu && (
         <div className="RoutesMenu">
-          <p>rota 1</p>
+          <p>Anglo</p>
           <p>rota 2</p>
           <p>rota 3</p>
         </div>
